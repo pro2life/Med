@@ -1,0 +1,601 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  background: url("../img/fone1.png");
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.Med {
+  display: flex;
+  align-items: center;
+}
+
+.Med__A1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 550px;
+}
+.Med__A1__A2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px 0 0 0;
+}
+.Med__A1__A2__A3 {
+  padding: 10px;
+  width: 159px;
+  height: 39px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+.Med__A1__A2__A3__A4 {
+  color: #0000BB;
+}
+
+.Med__B1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 300px;
+}
+.Med__B1__B2 {
+  width: 590px;
+  height: 122px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+  color: #FFFFFF;
+}
+.Med__B1__B2__B3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  text-decoration: none;
+  width: 233px;
+  height: 63px;
+  background: #F0F0F0;
+  box-shadow: -0.63587px 6.3587px 6.3587px rgba(87, 101, 228, 0.25), inset -1.27174px -1.27174px 2.54348px rgba(0, 0, 0, 0.2), inset 1.90761px 2.54348px 6.3587px #FFFFFF;
+  border-radius: 9.53804px;
+  color: #16AEC0;
+  border: none;
+}
+
+.Med__A2 {
+  margin: -380px 0 0 -40px;
+}
+.Med__A2__A1 {
+  position: absolute;
+  width: 640px;
+  height: 620px;
+  animation: linear Med__A2__A1key 5s infinite;
+}
+.Med__A2__A1__A2 {
+  margin-top: 100px;
+  position: absolute;
+  width: 640px;
+  height: 470px;
+  animation: Med__A2__A1__A2key 0.6s linear 1;
+}
+
+@keyframes Med__A2__A1key {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes Med__A2__A1__A2key {
+  from {
+    margin-left: 200px;
+  }
+  to {
+    margin-left: 5px;
+  }
+}
+.Gr {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 120px;
+}
+
+.Gr__A1 {
+  width: 199.83px;
+  height: 144px;
+  background: #FFFFFF;
+  box-shadow: -5.42092px 5.42092px 9.03487px rgba(0, 0, 0, 0.17);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.Gr__A1__A2 {
+  width: 160.69px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.6488px;
+  line-height: 15px;
+  text-align: center;
+  color: #67CDD9;
+}
+
+.Gr__A2 {
+  width: 199.83px;
+  height: 144px;
+  background: #FFFFFF;
+  box-shadow: -5.42092px 5.42092px 9.03487px rgba(0, 0, 0, 0.17);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.Gr__A2__A1 {
+  width: 160.69px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.6488px;
+  line-height: 15px;
+  text-align: center;
+  color: #67CDD9;
+}
+
+.Gr__A3 {
+  width: 199.83px;
+  height: 144px;
+  background: #FFFFFF;
+  box-shadow: -5.42092px 5.42092px 9.03487px rgba(0, 0, 0, 0.17);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.Gr__A3__A1 {
+  width: 160.69px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.6488px;
+  line-height: 15px;
+  text-align: center;
+  color: #67CDD9;
+}
+
+.Gr__A4 {
+  width: 199.83px;
+  height: 144px;
+  background: #FFFFFF;
+  box-shadow: -5.42092px 5.42092px 9.03487px rgba(0, 0, 0, 0.17);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.Gr__A4__A1 {
+  width: 160.69px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.6488px;
+  line-height: 15px;
+  text-align: center;
+  color: #67CDD9;
+}
+
+.img {
+  color: white;
+  position: absolute;
+  z-index: 2;
+  padding-top: 170px;
+  margin: 0 0 0 -45px;
+  animation: linear imgkey 5s infinite;
+}
+
+.One__A1 {
+  padding-top: 100px;
+  width: 248px;
+  height: 43px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  color: #67CDD9;
+}
+
+.Text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 70px 0 0 20px;
+  width: 1100px;
+}
+
+.Text__A1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 1050px;
+}
+
+.Text__A1__A2 {
+  position: relative;
+  z-index: 2;
+  padding-left: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 500px;
+  height: 330px;
+  background: white;
+  box-shadow: 0 4px 19px -3px rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+}
+.Text__A1__A2__A3 {
+  width: 258px;
+  height: 37px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: #67CDD9;
+}
+.Text__A1__A2__A3__A4 {
+  width: 490px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #5A5A5A;
+}
+
+.Text__A2__A2 {
+  position: relative;
+  z-index: 2;
+  padding-left: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 500px;
+  height: 330px;
+  background: white;
+  box-shadow: 0 4px 19px -3px rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+}
+.Text__A2__A2__A3 {
+  width: 363px;
+  height: 37px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: #67CDD9;
+}
+.Text__A2__A2__A3__A4 {
+  width: 490px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #5A5A5A;
+}
+
+.Text__A3__A2 {
+  position: relative;
+  z-index: 2;
+  padding-left: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 500px;
+  height: 330px;
+  background: white;
+  box-shadow: 0 4px 19px -3px rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+}
+.Text__A3__A2__A3 {
+  width: 200px;
+  height: 37px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: #67CDD9;
+}
+.Text__A3__A2__A3__A4 {
+  width: 490px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #5A5A5A;
+}
+
+.Text__B1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 1050px;
+}
+
+.Text__B1__A2 {
+  position: relative;
+  z-index: 2;
+  padding-left: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 500px;
+  height: 330px;
+  background: white;
+  box-shadow: 0 4px 19px -3px rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+}
+.Text__B1__A2__A3 {
+  width: 258px;
+  height: 37px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: #67CDD9;
+}
+.Text__B1__A2__A3__A4 {
+  width: 490px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #5A5A5A;
+}
+
+.Text__B2__A2 {
+  position: relative;
+  z-index: 2;
+  padding-left: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 500px;
+  height: 330px;
+  background: white;
+  box-shadow: 0 4px 19px -3px rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+}
+.Text__B2__A2__A3 {
+  width: 258px;
+  height: 37px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: #67CDD9;
+}
+.Text__B2__A2__A3__A4 {
+  width: 490px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #5A5A5A;
+}
+
+.Text__B3__A2 {
+  position: relative;
+  z-index: 2;
+  padding-left: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 500px;
+  height: 330px;
+  background: white;
+  box-shadow: 0 4px 19px -3px rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+}
+.Text__B3__A2__A3 {
+  width: 258px;
+  height: 37px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: #67CDD9;
+}
+.Text__B3__A2__A3__A4 {
+  width: 490px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #5A5A5A;
+}
+
+#Down {
+  margin: 300px 0 100px 0;
+  background: #F3FEFF;
+}
+
+.Our {
+  padding: 120px 0 100px 0;
+  width: 299px;
+  height: 43px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  color: #00A1B4;
+}
+
+.Down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Down__Down0 {
+  width: 424px;
+  height: 570px;
+  background: #E9FDFF;
+  box-shadow: 0 4px 19px -3px rgba(0, 0, 0, 0.25);
+  border-radius: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.Down__Down0__A1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Down__Down0__A1__A2 {
+  padding: 0 0 0 10px;
+  font-family: "Montserrat", sans-serif;
+  width: 333px;
+  font-size: 20px;
+  color: #00A1B4;
+  text-decoration: none;
+}
+
+.Down__Down0__A2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Down__Down0__A2__A1 {
+  padding: 0 0 0 10px;
+  font-family: "Montserrat", sans-serif;
+  width: 333px;
+  font-size: 20px;
+  color: #00A1B4;
+  text-decoration: none;
+}
+
+.Down__Down0__A3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Down__Down0__A3__A1 {
+  padding: 0 0 0 10px;
+  font-family: "Montserrat", sans-serif;
+  width: 333px;
+  font-size: 20px;
+  color: #00A1B4;
+  text-decoration: none;
+}
+
+.Down__Down0__A4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Down__Down0__A4__A1 {
+  padding: 0 0 0 10px;
+  font-family: "Montserrat", sans-serif;
+  width: 333px;
+  font-size: 20px;
+  color: #00A1B4;
+  text-decoration: none;
+}
+
+.Foot {
+  height: 150px;
+  background: #00A1B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Foot__A1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.Foot__A1__A2 {
+  padding: 0 0 0 10px;
+  width: 159px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+.Foot__A1__A2__A3 {
+  color: #0000BB;
+}
+
+.Foot__A2 {
+  width: 293px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.Foot__A3__A1 {
+  width: 261px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 100px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
